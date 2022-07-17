@@ -15,14 +15,17 @@
         <field name="name">School Student Form</field>
         <field name="model">school.student</field>
         <field name="arch" type="xml">
+            <header>
+                <button name="school-student.update_student_fees_action" string="Student Fees" type="action"/>
+            </header>
             <form>
                 <group>
                     <group>
                         <field name="name"/>
                         <field name="school_id"/>
                         <field name="hobby_list"/>
-                        <!--                        <field name="is_virtual_school"/>-->
-                        <!--                        <field name="school_address"/>-->
+                        <field name="is_virtual_school"/>
+                        <field name="school_address"/>
                     </group>
                     <group>
                         <field name="currency_id"/>

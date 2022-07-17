@@ -9,6 +9,7 @@
     'data': [
         'security/groups.xml',
         'security/ir.model.access.csv',
+        'wizard/student_fees_wizard_view.xml',
         'views/school_student_view.xml',
         'views/hobbies_view.xml',
     ],
